@@ -1,0 +1,14 @@
+# SIMULATED SYSTEM LOGS – TRAINING DATA ONLY
+# No real credentials, secrets, or personal information are included.
+
+2026-10-05 09:10:03 ERROR [INC-001] healthcheck service=communication-platform status=503
+2026-10-05 09:10:08 ERROR [INC-001] application status=unavailable component=web
+2026-10-05 10:25:12 WARN  [INC-002] api endpoint=/messages latency_ms=12480
+2026-10-05 10:25:16 WARN  [INC-002] database slow_query duration_ms=9100
+2026-10-05 11:05:40 ERROR [INC-003] auth result=failed reason=authentication_service_timeout
+2026-10-05 11:45:02 ERROR [INC-004] queue name=message-delivery state=backlog
+2026-10-05 11:45:08 ERROR [INC-004] message retry_count=3 result=failed
+2026-10-05 12:20:17 WARN  [INC-005] notification delivery_rate=72_percent
+2026-10-05 12:50:31 ERROR [INC-006] upload endpoint=/files status=408 timeout
+2026-10-05 13:20:44 ERROR [INC-007] frontend console=TypeError simulated_ui_component
+2026-10-05 14:00:19 ERROR [INC-008] api endpoint=/integration status=401 dependency=external-service

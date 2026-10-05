@@ -1,0 +1,9 @@
+Incident ID,Reported At,Issue,Priority,Scope,Symptom,Initial Evidence,Status,Owner
+INC-001,2026-10-05 09:10,System downtime,P1,Multiple users,Platform inaccessible,Infrastructure health check failed,Investigating,Infrastructure Team
+INC-002,2026-10-05 10:25,Slow performance,P2,40 users,8-15 second response time,Elevated API/database latency,Investigating,Application Team
+INC-003,2026-10-05 11:05,Login failure,P2,Several users,Valid credentials rejected,Authentication error,In Progress,Identity Team
+INC-004,2026-10-05 11:45,Message delivery,P2,Multiple users,Messages pending,Queue processing errors,In Progress,Messaging Team
+INC-005,2026-10-05 12:20,Notification failure,P3,Some users,No alerts received,Notification delivery issue,Open,Application Team
+INC-006,2026-10-05 12:50,File upload,P3,Some users,Upload timeout/rejection,Limit or storage issue,Open,Application Team
+INC-007,2026-10-05 13:20,UI glitch,P4,Limited users,Button/layout defect,Frontend behavior,Open,Frontend Team
+INC-008,2026-10-05 14:00,Integration/API,P2,Dependent workflow,API request failure,Dependency/authentication error,Open,Integration Team
